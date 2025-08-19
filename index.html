@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>Hi, I'm [Your Name]</h1>
+    <p>Web Developer | Learner | Builder</p>
+	<button id="darkModeBtn">🌙 Toggle Dark Mode</button>
+
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m learning web development and love building fun projects.
+      This is my first portfolio page!
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+  <h2>Projects</h2>
+  <div id="projectList"></div>
+</section>
+
+<!-- Modal (unchanged) -->
+<div id="projectModal" class="modal">
+  <div class="modal-content">
+    <span id="closeModal">&times;</span>
+    <h2 id="modalTitle"></h2>
+    <p id="modalDescription"></p>
+  </div>
+</div>
+
+<!-- Modal (hidden by default) -->
+<div id="projectModal" class="modal">
+  <div class="modal-content">
+    <span id="closeModal">&times;</span>
+    <h2 id="modalTitle"></h2>
+    <p id="modalDescription"></p>
+  </div>
+</div>
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 My Portfolio</p>
+  </footer>
+	<script src="script.js"></script>
+</body>
+</html>
